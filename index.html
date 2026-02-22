@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>User Data Collection Form</h2>
+        <br>
+    <form id="file">
+        <label for="First Name">First Name*</label>
+        <input type="text" id="First Name" name="First Name" placeholder="Enter your Name">
+        <br><br>
+        <label for="Last Name">Last Name*</label>
+        <input type="text"id="Last Name"Name="Last Name" required placeholder="Enter your Last Name">  <!--name lane ke liye required lagta hai --> 
+        <br> <br>
+        <label for="Father First Name">Father First*</label>
+        <input type="text"id="Father First Name" name="Father First Name" placeholder="Enter your Father Name">
+        <br><br>
+        <label for="Father Last">Father *</label>
+        <input type="text"id="fathet Last" name="Father Last" placeholder="Enter your Father Last">
+        <br><br>
+        <label for="Gmail">Gmail*</label>
+        <input type="Gmail"id="Gmail"name="Gmail" placeholder="Enter your Gmail">
+        <br><br>
+        <!-- <label for="password">password*</label>
+        <input type="password"id="password"name="password" placeholder=" Enter your Password">
+        <br><br> -->
+        <label for="Gender">Gender*</label>
+        <input type="radio"id="Gender"name="Gender">Male
+        <input type="radio"id="Gender"name="Gender">feMale
+        <input type="radio"id="Gender"name="Gender">other
+        <br><br>
+        <!-- <label for="language">language</label>
+        <input type="checkbox" name="language" id="language">Hindi
+        <input type="checkbox"id="language"name="language">English
+        <input type="checkbox"id="language">marathi
+        <br><br> -->
+        <label for="DOB">DOB*</label>
+        <input type="datetime-local"id="DOB"name="date of borth">
+        <br><br>
+        <label for="Mobile Number">Mobile Number*</label>
+        <input type="Tel"id="Mobile Number"name="Mobile Number" maxlength="10" placeholder="Enter your mobile No">
+        <br><br>
+        <label for="Marksheet"> Upload your Doucment</label>
+        <input type="file"id="Marksheet"name="Marksheet">
+        <br><br>
+        <textarea>
+            Enter your feed back
+        </textarea>
+        <br><br>
+    <input type="reset"value="clear">
+<!-- <br><br>
+
+<label for="select">Select your city</label>
+<select size="2"Multiple>
+    <option value="Delhi">Delhi</option>
+    <option value="Patna">Patna</option>
+    <option value="Bettiah">Bettiah</option>
+</select> -->
+<br><br>
+<input type="submit"value="submit" name=""submit>
+    </form>
+
+    </div>
+</body>
+</html>
